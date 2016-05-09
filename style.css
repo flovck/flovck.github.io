@@ -55,6 +55,17 @@ header .container-fluid
     height: 100vh;
     padding-top: 36px;
 }
+#example .container .row{
+  vertical-align: middle;
+  text-align: center;
+}
+.colone{
+  background-image: url('images/kiro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50;
+  padding-top: 36px;
+}
 
 .hamburger
 {
