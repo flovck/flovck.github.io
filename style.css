@@ -42,7 +42,15 @@ span.x4:before, i.x4:before
     font-size: 6em;
 }
 
+@media (min-height:715px){
 
+    header .container-fluid
+    {
+        height: 100vh;
+    }
+
+
+}
 /*------------------------------------*\
 	HEADER
 \*------------------------------------*/
@@ -52,7 +60,7 @@ header .container-fluid
     background-image: url('images/kiro.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /*height: 100vh;*/
     padding-top: 36px;
 }
 #example .container .row{
@@ -66,6 +74,15 @@ header .container-fluid
   height: 50;
   padding-top: 36px;
 }
+
+/*.logoKiro{
+    margin: 0px ! important;
+    position:absolute
+}
+
+.logoKiro img{
+    height: 10%;
+}*/
 
 .hamburger
 {
