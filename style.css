@@ -70,6 +70,7 @@ header .container-fluid
 .colone{
   background-image: url('images/kiro.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 50;
   padding-top: 36px;
