@@ -68,6 +68,9 @@ header .container-fluid {
     background-repeat: no-repeat;
     background-size: cover;
     /*height: 100vh;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     padding-top: 36px;
 }
 
@@ -194,5 +197,9 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p {
 }
 
 .social-link {
+    color: white;
+}
+
+link {
     color: white;
 }
