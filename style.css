@@ -79,11 +79,12 @@ span.x4:before, i.x4:before {
     font-size: 6em;
 }
 
-@media (min-height:846px) {
+
+/*@media (min-height:846px) {
     header .container-fluid {
         height: 100vh;
     }
-}
+}*/
 
 
 /*------------------------------------*\
@@ -94,7 +95,8 @@ header .container-fluid {
     /*background-image: url('images/kiro.jpg');*/
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
-    /*height: 100vh;*/
+    height: 100vh;
+    min-height: 720px;
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
     /*-o-background-size: cover;*/
