@@ -95,7 +95,7 @@ header .container-fluid {
     /*background-image: url('images/kiro.jpg');*/
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
-    height: 100vh;
+    /*height: 100vh;*/
     min-height: 720px;
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
@@ -291,16 +291,4 @@ link {
 }
 
 
-/* iPhone 4 */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    header .container-fluid {
-        height: 320px;
-    }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-    header .container-fluid {
-        height: 480px;
-    }
-}
+/* iPhon100vh
