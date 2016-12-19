@@ -251,3 +251,56 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p {
 link {
     color: white;
 }
+
+
+/*------------------------------------*\
+	IOS
+\*------------------------------------*/
+
+
+/* fix iOS bug not displaying 100vh correctly */
+
+
+/* ipad */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    header .container-fluid {
+        height: 768px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    header .container-fluid {
+        height: 1024px;
+    }
+}
+
+
+/* iphone5 */
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    header .container-fluid {
+        height: 320px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    header .container-fluid {
+        height: 568px;
+    }
+}
+
+
+/* iPhone 4 */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    header .container-fluid {
+        height: 320px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    header .container-fluid {
+        height: 480px;
+    }
+}
