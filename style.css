@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1.1em;
 }
 
-.features, .blog, .gallery, .clients, .prefooter .container-fluid {
+.features, .blog, .gallery, .clients, .prefooter .container-fluid, #carousselSection {
     padding-top: 3.3em;
     padding-bottom: 4.2em;
 }
@@ -179,6 +179,7 @@ header .jumbotron {
 \*------------------------------------*/
 
 .number .container-fluid {
+   
     background-image: url('https://unsplash.it/3000/2000?image=685');
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,6 +225,15 @@ header .jumbotron {
 .prefooter h1, .prefooter h2, .prefooter h3, .prefooter h4, .prefooter h5, .prefooter h6, .prefooter p {
     color: #FFFFFF;
 }
+
+
+/*------------------------------------*\
+	CAROUSSEL
+\*------------------------------------*/
+
+#carousselSection {
+    min-height: 500px;
+}   
 
 
 /*------------------------------------*\
