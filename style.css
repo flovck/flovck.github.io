@@ -233,7 +233,12 @@ header .jumbotron {
 
 #carousselSection {
     min-height: 500px;
-}   
+}
+
+#info {
+    color: white;
+    background-color: #34495e;
+}
 
 
 /*------------------------------------*\
